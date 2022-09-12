@@ -76,7 +76,7 @@
 
 <!-- text and images responsive too  -->
 <section class="text-images lg:flex justify-between items-center mt-24 gap-40">
-    <div class="text ml-12 w-11/12 mt-10 lg:text-start text-center">
+    <div class="text lg:ml-12 ml-0 w-11/12 mt-10 lg:text-start text-center">
         <div class="flex lg:justify-start justify-center">
         <img src="images/header-main small.png" alt="">
        </div>
@@ -86,7 +86,7 @@
             <button  class="bg-black text-white rounded-full py-4 px-4 mt-10 hover:bg-white hover:text-black hover:border-black border-2 ">Download Paytm App <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-google-play"></i></button>
         </div>
 
-        <div class="image flex justify-center lg:justify-end">
+        <div class="image cs:flex  hidden justify-center lg:justify-end ">
             <img class=" lg:mt-0  mt-12  h-[70vh] w-[50vw] " src="images/header-main-big-main.png" alt="">
         </div>
 </section>
@@ -100,7 +100,7 @@
         </div>
         
         <!-- cards  -->
-        <div class="cards lg:flex-nowrap flex-wrap flex lg:justify-between justify-start py-12 items-center">
+        <div class="cards lg:flex-nowrap flex-wrap flex lg:justify-between justify-center py-12 items-center">
             <!-- card 1  -->
             <div class="card text-white font-bold text-lg hover:bg-[rgba(0,0,0,0.1)] py-4 px-8 hover:cursor-pointer ">
                 <img class="w-16" src="images/recharge1.png" alt="">
@@ -375,7 +375,7 @@
  <section class="atm-money lg:flex bg-[rgb(245,247,250)] lg:pb-0 pb-12 ">
     <!-- hdfc  -->
     <div class="hdfc lg:pt-8 pt-1  lg:pb-28 bg-[rgb(245,247,250)]">
-        <div class="instrument-main  pl-20 w-11/12 m-auto  bg-white  mt-12 pb-28 pt-10 ">
+        <div class="instrument-main  lg:pl-20 w-11/12 m-auto  bg-white  mt-12 pb-28 pt-10 ">
     
             <!-- left  -->
             <div class="left cursor-pointer">
@@ -406,7 +406,7 @@
        <!-- sbi card  -->
 
        <div class="sbi lg:pt-8 pt-1  bg-[rgb(245,247,250)]">
-        <div class="instrument-main w-11/12 m-auto pl-20  bg-white  mt-12 pb-28 pt-24 ">
+        <div class="instrument-main w-11/12 m-auto lg:pl-20  bg-white  mt-12 pb-28 pt-24 ">
     
             <!-- left  -->
             <div class="left cursor-pointer">
@@ -493,7 +493,7 @@
             <img class="w-48" src="images/wealth-logo.png" alt="">
            </div>
             <div class="leftone flex flex-col ">
-                <h1 class="font-bold lg:text-4xl text-3xl mt-12  w-3/5">Build Long-term Wealth & Achieve your Goals.</h1>
+                <h1 class="font-bold lg:text-4xl md:text-3xl text-2xl mt-12  w-3/5">Build Long-term Wealth & Achieve your Goals.</h1>
                 <p class="mt-10 text-xl font-semibold  w-10/12">Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks
                      & mutual funds that can help you create wealth & realise your dreams.
                     </p>
@@ -583,11 +583,11 @@
     <h1 class=" w-10/12  m-auto md:text-5xl text-4xl md:text-start text-center font-bold mt-10 ">Business Services by Paytm</h1>
     <div class="instrument-main m-auto w-10/12 md:flex  bg-[rgb(245,247,250)]  mt-6 ">
         <!-- left  -->
-        <div class="left flex flex-col pl-24  justify-center bg-[rgb(245,247,250)]">
+        <div class="left flex flex-col md:pl-24  justify-center bg-[rgb(245,247,250)]">
 
             
            
-                <h1 class="font-bold md:text-4xl text-3xl mt-12 tracking-wide leading-normal">Accept payments <br> online with ease.</h1>
+                <h1 class="font-bold md:text-4xl text-2xl mt-12 tracking-wide leading-normal">Accept payments <br> online with ease.</h1>
                 <p class="mt-2 text-xl font-semibold md:pr-0 pr-4 ">Grow your business with the payment gateway that powers India's 
                     largest brands and even the Paytm App
                     </p>
@@ -611,11 +611,11 @@
 <section class="shop mt-12">
     <div class="instrument-main m-auto w-10/12 flex  bg-[rgb(240,251,255)]   ">
         <!-- left  -->
-        <div class="left flex flex-col pl-24 md:pb-0 pb-12 justify-center bg-[rgb(240,251,255)]">
+        <div class="left flex flex-col md:pl-24 md:pb-0 pb-12 justify-center bg-[rgb(240,251,255)]">
 
             
            
-                <h1 class="font-bold md:text-4xl text-3xl mt-12 tracking-wide leading-normal">In-shop payments <br> powered by Paytm.</h1>
+                <h1 class="font-bold lg:text-4xl md:text-3xl text-2xl mt-12 tracking-wide leading-normal">In-shop payments <br> powered by Paytm.</h1>
                 <p class="mt-2 md:text-xl text-lg font-semibold md:pr-0 pr-4">Millions of small & big businesses use Paytm to accept payments anywhere any
                      time with a wide range of solutions for all kind of merchants
                     </p>
@@ -702,9 +702,20 @@
     </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+
+
 <!-- paytm money responsive---  -->
-<section  class="paytm-money   bg-[rgb(240,251,255)] mt-4   pt-32  ">
-    <div  class="paytm-main-cards px-8 w-11/12 m-auto xl:flex-nowrap flex-wrap  xl:flex flex xl:justify-between justify-center gap-2 bg-white items-center pb-20">
+<section  class="paytm-money   bg-[rgb(240,251,255)] mt-4   py-16  ">
+    <div  class="paytm-main-cards px-8 w-11/12 m-auto xl:flex-nowrap flex-wrap   flex xl:justify-between justify-center gap-2 bg-white items-center pb-20 ">
         <!-- card started  -->
         <div class="start flex xl:mt-0 mt-12 xl:w-2/6 w-[100vw] justify-center xl:items-start items-center  flex-col ">
             <img  class="w-40" src="images/paytm-moneylogo.png" alt="">
@@ -712,8 +723,8 @@
                 Zero brokerage fee & no hidden charges.</p>
                 <div>
                 <span class="mt-4 text-blue_light cursor-pointer font-bold text-xl hover:text-blue_dark" href="#">Learn More</span>
+                </div>
         </div>
-    </div>
 
         <!-- card 1 -->
         <div class="card   bg-blue_light shadow-xl rounded-xl mt-8">
@@ -723,7 +734,6 @@
             <div class="card-body items-center text-center py-3">
               <h2 class="card-title text-white text-lg font-bold">Invest in </h2>
               <h2 class="text-white text-lg font-bold">Stocks</h2>
-              
             </div>
           </div>
           <!-- card2 -->
@@ -766,107 +776,86 @@
             </figure>
             <div class="card-body items-center text-center py-3">
               <h2 class="card-title text-white text-lg font-bold">Invest in </h2>
-              <h2 class="text-white text-lg font-bold">Mutual Funds</h2>
-              
+              <h2 class="text-white text-lg font-bold">Mutual Funds</h2>  
             </div>
           </div>
-
-
+          
     </div>
-</section>
 
-
-<!-- paytm-travel responsive---   -->
-<section  class="paytm-travel  bg-[rgb(240,251,255)]   pt-12  pb-16 ">
-    <div  class="paytm-main-cards px-8 w-11/12 m-auto sm:grid-cols-2 md:grid-cols-4 grid  lg:grid-cols-6 grid-cols-3  lg:justify-between justify-center gap-4 lg:gap-2 bg-white  pb-20">
-        <!-- card started  -->
-        <div class="start  mt-12  ">
-            <img  class="w-40" src="images/paytmtravellogo.png" alt="">
-            <h1 class="font-bold opacity-90 lg:text-lg text-xl mt-4">Best travel solutions with quick ticket bookings,
-                 great offers and easy refunds</h1>
-            <p class="mt-4 text-blue_light cursor-pointer font-bold text-xl hover:text-blue_dark" href="#">Learn More</p>
+    <!-- paytm travel  -->
+    <div class="travel-main w-11/12 mx-auto  mt-12 bg-white  gap-2 p-12">
+        <!-- boxes  -->
+        <div class="boxes grid lg:grid-cols-6 md:grid-cols-4 gap-12 sm:grid-cols-2 grid-cols-1  justify-center items-center ">
+            <!-- box1  -->
+            <div >
+                <div>
+                    <img class="w-40" src="images/paytmtravellogo.png" alt="">
+                </div>
+                <h1 class="font-bold text-sm opacity-80 mt-8">Best travel solutions with quick ticket bookings, 
+                    great offers and easy refunds</h1>
+                    <h1 class="text-blue_light font-bold mt-2">Learn More</h1>
+            </div>
+            <!-- box 2  -->
+            <div class="bg-blue_light pl-4 py-4 rounded-xl" >
+                <div class="">
+                    <img class="w-20" src="images/travel1.png" alt="">
+                </div>
+                <h1 class="mt-2 text-white font-bold">Flat 14% <br> Cashback</h1>
+                 <h3 class="text-white">With Code</h3>
+                 <h3 class="text-white">WELCOMEFLIGHT</h3>
+            </div>
+            <!-- box 3  -->
+            <div class="bg-blue_light pl-4 py-4 rounded-xl">
+                <div>
+                    <img class="w-20" src="images/travel3.png" alt="">
+                </div>
+                <h1 class="mt-2 text-white font-bold">Flat 10% <br> Cashback</h1>
+                 <h3  class="text-white">With Code</h3>
+                 <h3  class="text-white">HAPPYBUS</h3>
+            </div>
+            <!-- box 4  -->
+            <div class="bg-blue_light pl-4 py-4 rounded-xl">
+                <div>
+                    <img class="w-20" src="images/travel4.png" alt="">
+                </div>
+                <h1 class="mt-2 text-white font-bold">Sanitised Bus</h1>
+                 <h3  class="text-white">Options With</h3>
+                 <h3  class="text-white">TravelSafe+</h3>
+                 <h1 class="text-blue_light">.</h1>
+            </div>
+            <!-- box 5  -->
+            <div class="bg-blue_light pl-4 py-4 rounded-xl">
+                <div>
+                    <img class="w-20" src="images/travel5.png" alt="">
+                </div>
+                <h1 class="mt-2 text-white font-bold">Hassel Free</h1>
+                 <h3  class="text-white">Train Ticket</h3>
+                 <h3  class="text-white">Bookings</h3>
+                 <h1 class="text-blue_light">.</h1>
+            </div>
+            <!-- box 6  -->
+            <div class="bg-blue_light pl-4 py-4 rounded-xl">
+                <div>
+                    <img class="w-20" src="images/travel6.png" alt="">
+                </div>
+                <h1 class="mt-2 text-white font-bold">PNR Status</h1>
+                 <h3  class="text-white">Check In Few</h3>
+                 <h3  class="text-white">Simple Clicks</h3>
+                 <h1 class="text-blue_light">.</h1>
+            </div>
 
         </div>
-
-        <!-- card 1 -->
-        <div class="card  bg-blue_light shadow-xl rounded-xl pl-2 mt-8 pr-10 pt-6">
-            <div class="  ">
-              <img  src="images/travel1.png" alt="travel" class="investscale w-3/5    hover:" />
-            </div>
-            <div class="card-body items-center mt-4 py-3">
-              <h2 class="card-title text-white  text-centertext-lg font-bold">Flat 14%</h2>
-              <h2 class="text-white text-lg  font-bold">Cash Back</h2>
-              <p class="text-white font-bold  opacity-90">With Code</p>
-              <p class="text-white font-bold  opacity-90">WELCOMEFLIGHT</p>
-              
-            </div>
-          </div>
-
-               <!-- card2 is missing because of space and would become possible 
-                 in case of js  -->
-
-          <!-- card3 -->
-          <div class="card  bg-blue_light shadow-xl rounded-xl pl-2 mt-8 pr-10 pt-6">
-            <div class=" ">
-              <img  src="images/travel3.png" alt="travel" class="investscale w-3/5   hover:" />
-            </div>
-            <div class="card-body items-center  mt-4  py-3">
-              <h2 class="card-title text-white text-lg font-bold">Flat 10%</h2>
-              <h2 class="text-white text-lg font-bold">Cashback</h2>
-              <div>
-              <p class="text-white font-bold  opacity-90">With Code HAPPYBUS</p>
-            </div>
-              <p class="text-white font-bold text-blue_light ">WELCOMEFLIGHT</p>
-              
-            </div>
-          </div>
-          <!-- card4 -->
-          <div class="card  bg-blue_light shadow-xl rounded-xl pl-2 mt-8 pr-10 pt-6">
-            <div class=" ">
-              <img  src="images/travel4.png" alt="travel" class="investscale w-3/5   hover:" />
-            </div>
-            <div class="card-body items-center  mt-4  py-3">
-              <h2 class="card-title text-white text-lg font-bold">Sanitised Bus</h2>
-              <h2 class="text-white text-lg font-bold">Options With</h2>
-              <p class="text-white font-bold text-lg">TravelSafe+</p>
-              <p class="text-white font-bold text-blue_light">WELCOMEFLIGHT</p>
-              
-            </div>
-          </div>
-          <!-- card 5  -->
-          <div class="card  bg-blue_light shadow-xl rounded-xl pl-2 mt-8 pr-10 pt-6">
-            <div class=" ">
-              <img  src="images/travel5.png" alt="travel" class="investscale w-3/5   hover:" />
-            </div>
-            <div class="card-body items-center   mt-4 py-3">
-              <h2 class="card-title text-white text-lg font-bold">Hassle Free</h2>
-              <h2 class="text-white text-lg font-bold">Train Tickets</h2>
-              <p class="text-white font-bold text-lg">Bookings</p>
-              <p class="text-white font-bold text-blue_light ">WELCOMEFLIGHT</p>
-              
-            </div>
-          </div>
-          <!-- card 6 -->
-          <div class="card  bg-blue_light shadow-xl rounded-xl pl-2 mt-8 pr-10 pt-6">
-            <div class=" ">
-              <img  src="images/travel6.png" alt="travel" class="investscale w-3/5   hover:" />
-            </div>
-            <div class="card-body items-center  mt-4  py-3">
-              <h2 class="card-title text-white text-lg font-bold">PNR STATUS</h2>
-              <h2 class="text-white text-lg font-bold">Check In Few</h2>
-              <p class="text-white font-bold text-lg">Simple Clicks</p>
-              <p class="text-white font-bold text-blue_light">WELCOMEFLIGHT</p>
-              
-            </div>
-          </div>
-
-
     </div>
+
 </section>
+
+
+
 
 
 <!-- download app -->
 <section class="download bg-white my-24" >
+
     <div class="download-main w-10/12 m-auto flex lg:flex-nowrap lg:gap-0 gap-12 flex-wrap justify-between items-center">
         <!-- left  -->
         <div class="left lg:flex  ">
